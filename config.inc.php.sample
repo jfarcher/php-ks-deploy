@@ -1,0 +1,26 @@
+<?php
+$ip=$_SERVER['SERVER_ADDR'];
+$ldapserver = 'ldap-server.company.com';
+$ldaplocalgroup="cn=ks-deploy,ou=Group,dc=company,dc=com";
+$dbuser="root";
+$dbpass="dbpass";
+$location="GreatBritain";
+$dnssuffix=".company.com";
+$siteid=1;
+$ldapbasedn = 'dc=company,dc=com';
+$ldapgroup = "cn=ks-deploy,ou=Group,dc=company,dc=com";
+$dbhost="localhost";
+//$dbuser="root";
+$dbname="kickstart";
+$company_title="Company Title";
+//initip is the first 3 segments of your IP address.
+$initip="192.168.1";
+$notify_email="";
+$from_email="";
+$base_dn = "DC=company,DC=com";
+$ldap_user_dn= "ou=People,$base_dn";
+//Set your subnet gateway
+$gw="192.168.1.1";
+$deployment_url="http://localhost/addws.php";
+?>
+
