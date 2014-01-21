@@ -2,7 +2,8 @@ PHP based web deployment tool, I originally wrote this portal to aid Red Hat Ser
 Deployment was completed  using complex kickstart scripts.
 
 The original design allowed multiple sites to have their own inventory, used a corporate LDAP for authentication and LDAP groups for delegation.
-
+1. Actual numbers don't matter, just that it's a number
+  1. Ordered sub-list
 System work flow was:
 
 1. Add a machine to the inventory
