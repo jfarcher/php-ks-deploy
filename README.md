@@ -26,6 +26,7 @@ System work flow was:
 1.9. machine added - this part a pxelinux config script is copied to the relevant location based upon the above config.
 
 
+
 2. Deploy workstation
 
 2.1. Preconfigured PXE install environment required 
