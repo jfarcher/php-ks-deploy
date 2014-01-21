@@ -27,10 +27,15 @@ System work flow was:
 
 
 2. Deploy workstation
-⋅⋅ preconfigured PXE install environment required 
-⋅⋅ machine boots over network loads its config file and preliminary checks happen (present in inventory, eligible for deployment)
-⋅⋅ if all present and correct, machine runs through it's kickstart script.
-⋅⋅ at the end of the kickstart/install a signal is sent back to the server and the "eligible for deployment" field is marked NULL
+
+2.1. Preconfigured PXE install environment required 
+
+2.2. Machine boots over network loads its config file and preliminary checks happen (present in inventory, eligible for deployment)
+
+2.3. If all present and correct, machine runs through it's kickstart script.
+
+2.4. At the end of the kickstart/install a signal is sent back to the server and the "eligible for deployment" field is marked NULL
+
 
 
 
