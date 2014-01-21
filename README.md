@@ -6,16 +6,15 @@ The original design allowed multiple sites to have their own inventory, used a c
 System work flow was:
 
 1. Add a machine to the inventory
-2.
-⋅⋅1. give it a hostname
-⋅⋅ give it the allocated IP address
-⋅⋅ specify the mac address
-⋅⋅ suggest the user (ldap and Display name)
-⋅⋅ select the given hardware - this is a prepopulated mysql table, work was in progress to add a gui to add/remove hardware.
-⋅⋅ a suggested kickstart config is given, but can also be selected.
-⋅⋅ validation occurs
-⋅⋅ enable for deployment
-⋅⋅ machine added - this part a pxelinux config script is copied to the relevant location based upon the above config.
+1.1. give it a hostname
+1.2. give it the allocated IP address
+1.3. specify the mac address
+1.4. suggest the user (ldap and Display name)
+1.5. select the given hardware - this is a prepopulated mysql table, work was in progress to add a gui to add/remove hardware.
+1.6. a suggested kickstart config is given, but can also be selected.
+1.7. validation occurs
+1.8. enable for deployment
+1.9. machine added - this part a pxelinux config script is copied to the relevant location based upon the above config.
 
 2. Deploy workstation
 ⋅⋅ preconfigured PXE install environment required 
@@ -25,9 +24,4 @@ System work flow was:
 
 
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+
