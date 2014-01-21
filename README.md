@@ -6,6 +6,7 @@ The original design allowed multiple sites to have their own inventory, used a c
 System work flow was:
 
 1. Add a machine to the inventory
+2.
 ⋅⋅1. give it a hostname
 ⋅⋅ give it the allocated IP address
 ⋅⋅ specify the mac address
