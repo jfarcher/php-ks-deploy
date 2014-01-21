@@ -1,3 +1,5 @@
+* WARNING THIS IS PROBABLY VERY BROKEN, I HAVEN'T WORKED ON IT IN A LONG TIME.
+
 PHP based web deployment tool, I originally wrote this portal to aid Red Hat Server and workstation deployment and inventory.
 Deployment was completed  using complex kickstart scripts.
 
