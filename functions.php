@@ -34,7 +34,9 @@ if ($authuser != "" && $authpass != "") {
         }
      }    
 }
-
+function mysql_authenticate() {
+return "archerj";
+}
 function getWorkstationDetails($id){
 include("config.inc.php");
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die("db connect failed");
