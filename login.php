@@ -6,7 +6,8 @@ include("config.inc.php");
 $authuser=$_POST['authuser'];
 $authpass=$_POST['authpass'];
 
-if (($result = ldap_authenticate()) == NULL) {
+if (($result = mysql_authenticate()) == NULL) {
+//if (($result = ldap_authenticate()) == NULL) {
     header("location:index.php");
 }
 else{
