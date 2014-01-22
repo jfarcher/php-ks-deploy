@@ -1,4 +1,4 @@
-* WARNING THIS IS PROBABLY VERY BROKEN, I HAVEN'T WORKED ON IT IN A LONG TIME.
+* WARNING THIS IS PROBABLY VERY BROKEN, I HAVEN'T WORKED ON IT IN A LONG TIME - should be enough to get a working page now.
 * The plan is to modify this to a usable state then fork it, the fork will become an image building service for cloud images.
 
 PHP based web deployment tool, I originally wrote this portal to aid Red Hat Server and workstation deployment and inventory.
