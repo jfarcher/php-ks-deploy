@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/jfarcher/php-ks-deploy.png?label=ready&title=Ready)](https://waffle.io/jfarcher/php-ks-deploy)
 * WARNING THIS IS PROBABLY VERY BROKEN, I HAVEN'T WORKED ON IT IN A LONG TIME - should be enough to get a working page now.
 * The plan is to modify this to a usable state then fork it, the fork will become an image building service for cloud images.
 
